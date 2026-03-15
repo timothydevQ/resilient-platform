@@ -183,3 +183,4 @@ services:
     networks: [region-a]
 # init
 # region-a
+# region-b
