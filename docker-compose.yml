@@ -185,3 +185,4 @@ services:
 # region-a
 # region-b
 # prometheus
+# grafana
