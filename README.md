@@ -527,3 +527,4 @@ SLO thresholds enforced: `p(99)<500ms`, `p(95)<200ms`, `order_errors<1%`.
 <!-- patterns -->
 <!-- quickstart -->
 <!-- slo -->
+<!-- design -->
