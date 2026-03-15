@@ -41,3 +41,4 @@ go.work.sum
 # Vendor
 vendor/
 # go
+# coverage
