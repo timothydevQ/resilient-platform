@@ -187,3 +187,4 @@ services:
 # prometheus
 # grafana
 # jaeger
+# loki
