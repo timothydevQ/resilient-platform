@@ -521,3 +521,4 @@ SLO thresholds enforced: `p(99)<500ms`, `p(95)<200ms`, `order_errors<1%`.
 ### Q2 2027 — Platform Maturity
 - Service mesh (Linkerd), gRPC internal, schema registry, self-service SLO dashboard
 <!-- init -->
+<!-- overview -->
