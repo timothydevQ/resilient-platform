@@ -232,3 +232,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // cb state string
 // retry config
 // default retry
+// retry fn
