@@ -227,3 +227,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // cb execute
 // cb open
 // cb half open
+// cb close
