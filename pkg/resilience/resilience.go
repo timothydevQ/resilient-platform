@@ -223,3 +223,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // cb state
 // cb config
 // default config
+// cb struct
