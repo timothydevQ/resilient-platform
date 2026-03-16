@@ -234,3 +234,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // default retry
 // retry fn
 // backoff delay
+// jitter calc
