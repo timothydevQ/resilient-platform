@@ -236,3 +236,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // backoff delay
 // jitter calc
 // max delay cap
+// timeout fn
