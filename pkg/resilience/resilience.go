@@ -230,3 +230,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // cb close
 // cb stats
 // cb state string
+// retry config
