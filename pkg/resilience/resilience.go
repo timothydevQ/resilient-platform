@@ -238,3 +238,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // max delay cap
 // timeout fn
 // resilient client
+// client do
