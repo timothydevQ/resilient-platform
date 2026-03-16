@@ -229,3 +229,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // cb half open
 // cb close
 // cb stats
+// cb state string
