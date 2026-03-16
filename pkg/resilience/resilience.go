@@ -220,3 +220,4 @@ func (r *ResilientClient) Do(fn func() error) error {
 
 func (r *ResilientClient) State() CBState  { return r.cb.State() }
 func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
+// cb state
