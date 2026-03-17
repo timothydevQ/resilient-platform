@@ -241,3 +241,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // cb half open
 // cb closes
 // cb stats
+// cb state string
