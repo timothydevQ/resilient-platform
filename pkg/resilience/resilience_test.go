@@ -246,3 +246,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // retry success
 // retry retries
 // retry second
+// retry max
