@@ -254,3 +254,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // client success
 // client cb open
 // backoff cap
+// cb concurrent
