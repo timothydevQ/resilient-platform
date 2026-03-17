@@ -242,3 +242,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // cb closes
 // cb stats
 // cb state string
+// cb reset failures
