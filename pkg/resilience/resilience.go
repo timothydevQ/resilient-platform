@@ -241,3 +241,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // client do
 // errors sentinel
 // client state
+// ref_03:08
