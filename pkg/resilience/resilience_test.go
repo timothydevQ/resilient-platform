@@ -250,3 +250,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // retry zero
 // timeout ok
 // timeout expires
+// timeout propagate
