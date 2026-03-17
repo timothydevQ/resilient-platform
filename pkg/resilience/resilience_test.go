@@ -234,3 +234,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 		t.Errorf("delay should be capped near max, got %v", delay)
 	}
 }
+// cb initial closed
