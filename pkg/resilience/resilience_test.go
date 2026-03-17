@@ -244,3 +244,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // cb state string
 // cb reset failures
 // retry success
+// retry retries
