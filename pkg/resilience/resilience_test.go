@@ -239,3 +239,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // cb opens
 // cb rejects open
 // cb half open
+// cb closes
