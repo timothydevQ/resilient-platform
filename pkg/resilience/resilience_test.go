@@ -251,3 +251,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // timeout ok
 // timeout expires
 // timeout propagate
+// client success
