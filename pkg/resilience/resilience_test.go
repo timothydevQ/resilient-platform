@@ -257,3 +257,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // cb concurrent
 // retry concurrent
 // cb name
+// cb success count
