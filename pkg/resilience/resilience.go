@@ -243,3 +243,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // client state
 // ref_03:08
 // cb open slog
+// retry slog
