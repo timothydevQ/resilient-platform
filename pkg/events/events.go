@@ -286,3 +286,4 @@ func newID() string {
 // outbox dlq
 // outbox pending
 // outbox stats
+// event bus
