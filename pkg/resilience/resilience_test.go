@@ -253,3 +253,4 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 // timeout propagate
 // client success
 // client cb open
+// backoff cap
