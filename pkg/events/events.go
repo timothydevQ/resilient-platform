@@ -278,3 +278,4 @@ func newID() string {
 // new event
 // unmarshal
 // outbox status
+// outbox entry
