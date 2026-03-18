@@ -282,3 +282,4 @@ func newID() string {
 // outbox struct
 // outbox add
 // outbox published
+// outbox failed
