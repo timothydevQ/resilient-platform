@@ -284,3 +284,4 @@ func newID() string {
 // outbox published
 // outbox failed
 // outbox dlq
+// outbox pending
