@@ -279,3 +279,4 @@ func newID() string {
 // unmarshal
 // outbox status
 // outbox entry
+// outbox struct
