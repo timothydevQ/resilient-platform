@@ -234,3 +234,23 @@ func TestBackoffDelay_CappedAtMax(t *testing.T) {
 		t.Errorf("delay should be capped near max, got %v", delay)
 	}
 }
+// cb initial closed
+// cb success no open
+// cb opens
+// cb rejects open
+// cb half open
+// cb closes
+// cb stats
+// cb state string
+// cb reset failures
+// retry success
+// retry retries
+// retry second
+// retry max
+// retry zero
+// timeout ok
+// timeout expires
+// timeout propagate
+// client success
+// client cb open
+// backoff cap
