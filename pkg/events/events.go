@@ -274,3 +274,4 @@ func newID() string {
 	return fmt.Sprintf("%x", b)
 }
 // event types
+// event struct
