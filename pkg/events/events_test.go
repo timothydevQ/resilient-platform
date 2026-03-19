@@ -193,3 +193,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // outbox dlq
 // outbox stats
 // bus subscribe publish
+// bus match only
