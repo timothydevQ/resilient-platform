@@ -189,3 +189,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // unique ids
 // outbox add pending
 // outbox mark published
+// outbox mark failed
