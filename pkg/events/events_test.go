@@ -199,3 +199,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // dlq count
 // dlq max
 // outbox get dlq
+// outbox concurrent
