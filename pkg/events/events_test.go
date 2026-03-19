@@ -196,3 +196,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // bus match only
 // bus multi sub
 // bus history
+// dlq count
