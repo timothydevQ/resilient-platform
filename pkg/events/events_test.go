@@ -200,3 +200,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // dlq max
 // outbox get dlq
 // outbox concurrent
+// bus no handlers
