@@ -198,3 +198,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // bus history
 // dlq count
 // dlq max
+// outbox get dlq
