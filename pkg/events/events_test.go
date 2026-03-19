@@ -192,3 +192,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // outbox mark failed
 // outbox dlq
 // outbox stats
+// bus subscribe publish
