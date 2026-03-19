@@ -184,3 +184,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 		if s == "" { t.Error("expected non-empty status") }
 	}
 }
+// new event fields
