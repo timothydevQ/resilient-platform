@@ -289,3 +289,4 @@ func newID() string {
 // event bus
 // bus subscribe
 // bus publish
+// bus history
