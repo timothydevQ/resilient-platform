@@ -290,3 +290,4 @@ func newID() string {
 // bus subscribe
 // bus publish
 // bus history
+// dlq struct
