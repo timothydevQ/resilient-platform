@@ -190,3 +190,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // outbox add pending
 // outbox mark published
 // outbox mark failed
+// outbox dlq
