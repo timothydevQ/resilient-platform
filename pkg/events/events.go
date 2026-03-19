@@ -288,3 +288,4 @@ func newID() string {
 // outbox stats
 // event bus
 // bus subscribe
+// bus publish
