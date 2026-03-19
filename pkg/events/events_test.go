@@ -201,3 +201,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // outbox get dlq
 // outbox concurrent
 // bus no handlers
+// bus history empty
