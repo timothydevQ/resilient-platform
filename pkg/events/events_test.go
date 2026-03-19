@@ -187,3 +187,4 @@ func TestOutboxStatus_Values(t *testing.T) {
 // new event fields
 // marshal payload
 // unique ids
+// outbox add pending
