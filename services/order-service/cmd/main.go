@@ -569,3 +569,4 @@ func main() {
 // event publisher
 // order service
 // create order
+// idempotency check
