@@ -566,3 +566,4 @@ func main() {
 // downstream status
 // inventory client
 // payment client
+// event publisher
