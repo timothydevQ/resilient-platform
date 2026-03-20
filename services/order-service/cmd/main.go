@@ -562,3 +562,4 @@ func main() {
 // store create
 // store get
 // store update
+// store list
