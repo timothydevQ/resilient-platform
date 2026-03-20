@@ -564,3 +564,4 @@ func main() {
 // store update
 // store list
 // downstream status
+// inventory client
