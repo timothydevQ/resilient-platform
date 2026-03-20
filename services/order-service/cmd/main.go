@@ -567,3 +567,4 @@ func main() {
 // inventory client
 // payment client
 // event publisher
+// order service
