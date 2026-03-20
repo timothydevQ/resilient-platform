@@ -565,3 +565,4 @@ func main() {
 // store list
 // downstream status
 // inventory client
+// payment client
