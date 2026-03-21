@@ -581,3 +581,4 @@ func main() {
 // health
 // metrics
 // routes
+// server
