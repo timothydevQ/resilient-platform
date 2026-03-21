@@ -571,3 +571,4 @@ func main() {
 // create order
 // idempotency check
 // inventory degrade
+// payment degrade
