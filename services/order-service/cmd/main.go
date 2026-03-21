@@ -572,3 +572,4 @@ func main() {
 // idempotency check
 // inventory degrade
 // payment degrade
+// cancel order
