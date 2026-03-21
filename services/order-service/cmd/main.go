@@ -573,3 +573,4 @@ func main() {
 // inventory degrade
 // payment degrade
 // cancel order
+// stats
