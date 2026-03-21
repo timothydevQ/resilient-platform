@@ -570,3 +570,4 @@ func main() {
 // order service
 // create order
 // idempotency check
+// inventory degrade
