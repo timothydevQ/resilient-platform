@@ -579,3 +579,4 @@ func main() {
 // cancel handler
 // user orders handler
 // health
+// metrics
