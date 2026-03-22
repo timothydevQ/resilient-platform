@@ -283,3 +283,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // negative price
 // region
 // timestamps
+// idem same
