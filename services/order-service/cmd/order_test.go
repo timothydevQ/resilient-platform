@@ -291,3 +291,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // failure reason
 // get found
 // get not found
+// cancel success
