@@ -278,3 +278,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // create success
 // total calc
 // missing user
+// empty items
