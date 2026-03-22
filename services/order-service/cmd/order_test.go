@@ -287,3 +287,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // idem different
 // idem flag
 // inventory down
+// payment down
