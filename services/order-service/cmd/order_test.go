@@ -280,3 +280,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // missing user
 // empty items
 // negative qty
+// negative price
