@@ -308,3 +308,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // no idem key
 // store count
 // store list sort
+// total two items
