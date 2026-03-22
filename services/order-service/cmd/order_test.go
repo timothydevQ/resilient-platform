@@ -285,3 +285,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // timestamps
 // idem same
 // idem different
+// idem flag
