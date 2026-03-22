@@ -288,3 +288,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // idem flag
 // inventory down
 // payment down
+// failure reason
