@@ -289,3 +289,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // inventory down
 // payment down
 // failure reason
+// get found
