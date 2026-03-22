@@ -290,3 +290,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // payment down
 // failure reason
 // get found
+// get not found
