@@ -279,3 +279,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // total calc
 // missing user
 // empty items
+// negative qty
