@@ -295,3 +295,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // cancel not found
 // user orders
 // user empty
+// store update
