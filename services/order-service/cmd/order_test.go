@@ -307,3 +307,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // publisher stats
 // no idem key
 // store count
+// store list sort
