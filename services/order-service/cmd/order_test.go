@@ -297,3 +297,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // user empty
 // store update
 // idem store
+// stats
