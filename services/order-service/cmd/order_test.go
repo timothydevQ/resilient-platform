@@ -292,3 +292,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // get found
 // get not found
 // cancel success
+// cancel not found
