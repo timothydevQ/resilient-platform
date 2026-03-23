@@ -306,3 +306,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // tst_58:38
 // publisher stats
 // no idem key
+// store count
