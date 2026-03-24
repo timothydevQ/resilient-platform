@@ -452,3 +452,4 @@ func main() {
 	srv.Shutdown(ctx)
 }
 // payment status
+// payment struct
