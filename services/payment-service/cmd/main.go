@@ -454,3 +454,4 @@ func main() {
 // payment status
 // payment struct
 // idem store
+// payment store
