@@ -224,3 +224,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 	if id != "pay-1" { t.Errorf("expected original pay-1, got %s", id) }
 }
 // charge success
+// charge fields
