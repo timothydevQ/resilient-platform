@@ -229,3 +229,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // missing order
 // zero amount
 // negative amount
+// gateway down
