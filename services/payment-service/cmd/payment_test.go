@@ -240,3 +240,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // refund gw down
 // get found
 // get not found
+// get by order
