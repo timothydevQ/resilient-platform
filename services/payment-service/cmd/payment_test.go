@@ -227,3 +227,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // charge fields
 // default currency
 // missing order
+// zero amount
