@@ -239,3 +239,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // refund failed
 // refund gw down
 // get found
+// get not found
