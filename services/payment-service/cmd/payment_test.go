@@ -233,3 +233,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // gateway failed status
 // failure reason
 // idem same
+// idem different
