@@ -234,3 +234,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // failure reason
 // idem same
 // idem different
+// refund success
