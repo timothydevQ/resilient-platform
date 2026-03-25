@@ -230,3 +230,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // zero amount
 // negative amount
 // gateway down
+// gateway failed status
