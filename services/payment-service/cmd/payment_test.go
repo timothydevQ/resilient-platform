@@ -242,3 +242,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // get not found
 // get by order
 // count by status
+// stats region
