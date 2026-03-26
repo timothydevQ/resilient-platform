@@ -451,3 +451,21 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// payment status
+// payment struct
+// idem store
+// payment store
+// get by order
+// gateway status
+// gateway stub
+// gateway refund
+// charge
+// charge gateway
+// refund svc
+// get payment
+// stats
+// charge handler
+// get handler
+// refund handler
+// health
+// routes
