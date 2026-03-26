@@ -241,3 +241,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // get found
 // get not found
 // get by order
+// count by status
