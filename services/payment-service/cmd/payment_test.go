@@ -250,3 +250,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // tst_07:03
 // tst_51:33
 // tst_36:03
+// gateway healthy
