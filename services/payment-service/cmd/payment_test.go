@@ -254,3 +254,4 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 // by order not found
 // refund succeeded
 // charge attempts
+// store count
