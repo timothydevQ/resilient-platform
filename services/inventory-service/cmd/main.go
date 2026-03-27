@@ -455,3 +455,4 @@ func main() {
 // add product
 // get product
 // reserve
+// reserve reduces
