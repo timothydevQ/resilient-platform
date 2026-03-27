@@ -464,3 +464,4 @@ func main() {
 // reserve handler
 // confirm handler
 // release handler
+// product handler
