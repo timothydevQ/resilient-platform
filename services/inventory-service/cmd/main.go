@@ -454,3 +454,4 @@ func main() {
 // inventory store
 // add product
 // get product
+// reserve
