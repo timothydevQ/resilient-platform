@@ -448,3 +448,4 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// product struct
