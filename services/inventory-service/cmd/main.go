@@ -449,3 +449,4 @@ func main() {
 	srv.Shutdown(ctx)
 }
 // product struct
+// reservation status
