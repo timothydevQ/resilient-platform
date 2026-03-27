@@ -451,3 +451,4 @@ func main() {
 // product struct
 // reservation status
 // reservation struct
+// inventory store
