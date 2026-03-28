@@ -465,3 +465,4 @@ func main() {
 // confirm handler
 // release handler
 // product handler
+// health routes
