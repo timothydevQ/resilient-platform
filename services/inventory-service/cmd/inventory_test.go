@@ -176,3 +176,4 @@ func TestStats_ReturnsData(t *testing.T) {
 	if stats["reservations_active"].(int) != 1 { t.Errorf("expected 1 active, got %v", stats["reservations_active"]) }
 }
 // add product
+// sets region
