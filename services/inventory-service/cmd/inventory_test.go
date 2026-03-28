@@ -202,3 +202,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // reserve active
 // confirm status
 // reserve not found
+// available correct
