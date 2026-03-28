@@ -178,3 +178,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // add product
 // sets region
 // not found
+// reserve success
