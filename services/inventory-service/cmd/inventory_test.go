@@ -189,3 +189,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // confirm not found
 // release restores
 // release idem
+// expire
