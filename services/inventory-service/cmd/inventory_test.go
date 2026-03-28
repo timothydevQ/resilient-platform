@@ -181,3 +181,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // reserve success
 // reserve reduces
 // insufficient
+// product not found
