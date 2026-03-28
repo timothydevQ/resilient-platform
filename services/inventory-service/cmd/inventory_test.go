@@ -179,3 +179,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // sets region
 // not found
 // reserve success
+// reserve reduces
