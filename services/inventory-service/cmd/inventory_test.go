@@ -183,3 +183,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // insufficient
 // product not found
 // missing order
+// zero qty
