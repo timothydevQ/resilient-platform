@@ -180,3 +180,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // not found
 // reserve success
 // reserve reduces
+// insufficient
