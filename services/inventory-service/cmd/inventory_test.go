@@ -191,3 +191,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // release idem
 // expire
 // low stock
+// stats
