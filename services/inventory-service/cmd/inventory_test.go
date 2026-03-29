@@ -201,3 +201,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // tst_13:28
 // reserve active
 // confirm status
+// reserve not found
