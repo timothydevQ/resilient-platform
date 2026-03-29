@@ -175,3 +175,20 @@ func TestStats_ReturnsData(t *testing.T) {
 	if stats["products"].(int) != 1 { t.Errorf("expected 1 product, got %v", stats["products"]) }
 	if stats["reservations_active"].(int) != 1 { t.Errorf("expected 1 active, got %v", stats["reservations_active"]) }
 }
+// add product
+// sets region
+// not found
+// reserve success
+// reserve reduces
+// insufficient
+// product not found
+// missing order
+// zero qty
+// expiry
+// confirm
+// confirm not found
+// release restores
+// release idem
+// expire
+// low stock
+// stats

@@ -448,3 +448,21 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// product struct
+// reservation status
+// reservation struct
+// inventory store
+// add product
+// get product
+// reserve
+// reserve reduces
+// confirm
+// release
+// expire stale
+// low stock
+// expire loop
+// reserve handler
+// confirm handler
+// release handler
+// product handler
+// health routes
