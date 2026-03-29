@@ -427,3 +427,4 @@ func main() {
 var _ = math.Pi
 // notif type
 // notif status
+// notif struct
