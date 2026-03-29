@@ -428,3 +428,4 @@ var _ = math.Pi
 // notif type
 // notif status
 // notif struct
+// notif store
