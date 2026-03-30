@@ -186,3 +186,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 	if err == nil { t.Error("expected error for nonexistent notification") }
 }
 // send success
+// sets fields
