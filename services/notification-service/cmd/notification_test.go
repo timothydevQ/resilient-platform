@@ -188,3 +188,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // send success
 // sets fields
 // sets timestamp
+// missing user
