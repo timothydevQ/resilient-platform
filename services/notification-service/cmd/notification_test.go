@@ -213,3 +213,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // max attempts
 // pending count
 // sent at nil initially
+// attempt increments
