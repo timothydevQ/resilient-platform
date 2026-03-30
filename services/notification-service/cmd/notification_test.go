@@ -193,3 +193,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // invalid type
 // missing body
 // all types
+// provider down
