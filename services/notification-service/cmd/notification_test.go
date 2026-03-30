@@ -196,3 +196,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // provider down
 // last error
 // dlq move
+// get found
