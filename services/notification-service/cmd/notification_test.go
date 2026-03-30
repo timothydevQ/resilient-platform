@@ -198,3 +198,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // dlq move
 // get found
 // get not found
+// count by status
