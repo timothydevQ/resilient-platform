@@ -201,3 +201,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // count by status
 // dlq max
 // get pending
+// update not found
