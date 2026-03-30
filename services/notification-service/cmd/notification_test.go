@@ -185,3 +185,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 	err := store.Update("nonexistent", func(n *Notification) {})
 	if err == nil { t.Error("expected error for nonexistent notification") }
 }
+// send success
