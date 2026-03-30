@@ -191,3 +191,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // missing user
 // missing type
 // invalid type
+// missing body
