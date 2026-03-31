@@ -202,3 +202,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // dlq max
 // get pending
 // update not found
+// stats region
