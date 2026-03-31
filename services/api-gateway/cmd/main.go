@@ -472,3 +472,4 @@ func main() {
 // ref_47:38
 // ref_32:08
 // proxy log
+// upstream count
