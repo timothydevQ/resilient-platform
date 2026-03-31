@@ -447,3 +447,4 @@ func main() {
 // cb success
 // cb failure
 // upstream
+// registry
