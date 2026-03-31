@@ -210,3 +210,4 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 // tst_21:53
 // tst_06:23
 // tst_50:53
+// max attempts
