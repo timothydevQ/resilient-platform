@@ -185,3 +185,21 @@ func TestNotificationStore_UpdateNotFound(t *testing.T) {
 	err := store.Update("nonexistent", func(n *Notification) {})
 	if err == nil { t.Error("expected error for nonexistent notification") }
 }
+// send success
+// sets fields
+// sets timestamp
+// missing user
+// missing type
+// invalid type
+// missing body
+// all types
+// provider down
+// last error
+// dlq move
+// get found
+// get not found
+// count by status
+// dlq max
+// get pending
+// update not found
+// stats region
