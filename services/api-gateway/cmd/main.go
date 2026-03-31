@@ -450,3 +450,4 @@ func main() {
 // registry
 // health summary
 // gateway struct
+// extract ip
