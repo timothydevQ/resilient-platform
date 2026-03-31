@@ -442,3 +442,4 @@ func main() {
 // rl allow
 // rl cleanup
 // cb state
+// cb struct
