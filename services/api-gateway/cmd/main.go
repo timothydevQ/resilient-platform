@@ -445,3 +445,4 @@ func main() {
 // cb struct
 // cb allow
 // cb success
+// cb failure
