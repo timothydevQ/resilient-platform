@@ -179,3 +179,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // rl isolates
 // rl new bucket
 // cb initial
+// cb allows closed
