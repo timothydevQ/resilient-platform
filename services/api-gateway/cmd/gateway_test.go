@@ -192,3 +192,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // proxy construct
 // tst_30:18
 // tst_14:48
+// tst_59:18
