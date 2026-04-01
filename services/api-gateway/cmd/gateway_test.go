@@ -177,3 +177,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // rl allows
 // rl blocks
 // rl isolates
+// rl new bucket
