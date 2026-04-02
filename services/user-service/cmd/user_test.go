@@ -138,3 +138,4 @@ func TestStats_Count(t *testing.T) {
 // stats
 // tst_07:43
 // tst_52:13
+// tst_36:43
