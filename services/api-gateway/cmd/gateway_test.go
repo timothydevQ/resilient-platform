@@ -188,3 +188,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // registry register
 // registry not found
 // health summary
+// getenv
