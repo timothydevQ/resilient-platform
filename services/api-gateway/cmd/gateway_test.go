@@ -185,3 +185,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // cb half open
 // cb closes
 // cb resets
+// registry register
