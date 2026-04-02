@@ -170,3 +170,22 @@ func TestGetEnv_Missing(t *testing.T) {
 		t.Error("expected fallback")
 	}
 }
+// bucket allows
+// bucket blocks
+// bucket refills
+// bucket caps
+// rl allows
+// rl blocks
+// rl isolates
+// rl new bucket
+// cb initial
+// cb allows closed
+// cb opens
+// cb blocks
+// cb half open
+// cb closes
+// cb resets
+// registry register
+// registry not found
+// health summary
+// getenv

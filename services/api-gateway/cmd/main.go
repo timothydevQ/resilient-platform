@@ -436,3 +436,24 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// token bucket
+// bucket allow
+// rate limiter
+// rl allow
+// rl cleanup
+// cb state
+// cb struct
+// cb allow
+// cb success
+// cb failure
+// upstream
+// registry
+// health summary
+// gateway struct
+// extract ip
+// inject request id
+// proxy handler
+// error handler
+// response writer
+// health endpoint
+// routes
