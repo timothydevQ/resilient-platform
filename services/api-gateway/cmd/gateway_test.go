@@ -186,3 +186,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // cb closes
 // cb resets
 // registry register
+// registry not found
