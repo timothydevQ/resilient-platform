@@ -234,3 +234,4 @@ func main() {
 // ref_25:03
 // ref_09:33
 // create slog
+// deactivate slog
