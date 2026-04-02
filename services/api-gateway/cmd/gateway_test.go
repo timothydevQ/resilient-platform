@@ -184,3 +184,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // cb blocks
 // cb half open
 // cb closes
+// cb resets
