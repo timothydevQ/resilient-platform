@@ -130,3 +130,4 @@ func TestStats_Count(t *testing.T) {
 // invalid email
 // duplicate
 // get found
+// get not found
