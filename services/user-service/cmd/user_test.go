@@ -144,3 +144,4 @@ func TestStats_Count(t *testing.T) {
 // active default
 // deactivate not found
 // missing first name
+// count
