@@ -125,3 +125,14 @@ func TestStats_Count(t *testing.T) {
 		t.Errorf("expected 2 users, got %v", stats["total_users"])
 	}
 }
+// create
+// missing email
+// invalid email
+// duplicate
+// get found
+// get not found
+// update
+// update not found
+// deactivate
+// get by email
+// stats

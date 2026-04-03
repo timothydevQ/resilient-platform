@@ -212,3 +212,11 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// user struct
+// user store
+// create
+// get
+// update
+// deactivate
+// service
+// handlers
