@@ -145,3 +145,4 @@ func TestStats_Count(t *testing.T) {
 // deactivate not found
 // missing first name
 // count
+// get by email missing
