@@ -125,3 +125,4 @@ func TestStats_Count(t *testing.T) {
 		t.Errorf("expected 2 users, got %v", stats["total_users"])
 	}
 }
+// create
