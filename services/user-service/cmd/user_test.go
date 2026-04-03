@@ -134,3 +134,4 @@ func TestStats_Count(t *testing.T) {
 // update
 // update not found
 // deactivate
+// get by email
