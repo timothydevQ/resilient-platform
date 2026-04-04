@@ -370,3 +370,4 @@ spec:
               path: /healthz/ready
               port: 8084
 # namespace
+# configmap
