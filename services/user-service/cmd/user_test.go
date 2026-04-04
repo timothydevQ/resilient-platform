@@ -143,3 +143,4 @@ func TestStats_Count(t *testing.T) {
 // tst_05:43
 // active default
 // deactivate not found
+// missing first name
