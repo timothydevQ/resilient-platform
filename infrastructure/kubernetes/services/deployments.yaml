@@ -374,3 +374,4 @@ spec:
 # api-gw deploy
 # api-gw hpa
 # order deploy
+# order hpa
