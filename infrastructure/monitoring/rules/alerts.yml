@@ -44,3 +44,4 @@ groups:
           severity: critical
         annotations:
           summary: "Order SLO at risk"
+# service down
