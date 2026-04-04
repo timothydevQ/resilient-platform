@@ -371,3 +371,4 @@ spec:
               port: 8084
 # namespace
 # configmap
+# api-gw deploy
