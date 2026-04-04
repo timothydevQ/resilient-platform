@@ -372,3 +372,4 @@ spec:
 # namespace
 # configmap
 # api-gw deploy
+# api-gw hpa
