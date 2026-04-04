@@ -369,3 +369,4 @@ spec:
             httpGet:
               path: /healthz/ready
               port: 8084
+# namespace
