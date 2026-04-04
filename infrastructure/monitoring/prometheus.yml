@@ -46,3 +46,4 @@ scrape_configs:
       - targets: ["order-service-b:9080"]
     metrics_path: /metrics
 # global
+# scrape all
