@@ -375,3 +375,4 @@ spec:
 # api-gw hpa
 # order deploy
 # order hpa
+# payment deploy
