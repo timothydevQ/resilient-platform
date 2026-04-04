@@ -142,3 +142,4 @@ func TestStats_Count(t *testing.T) {
 // tst_21:13
 // tst_05:43
 // active default
+// deactivate not found
