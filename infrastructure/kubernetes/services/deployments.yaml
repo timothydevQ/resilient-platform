@@ -373,3 +373,4 @@ spec:
 # configmap
 # api-gw deploy
 # api-gw hpa
+# order deploy
