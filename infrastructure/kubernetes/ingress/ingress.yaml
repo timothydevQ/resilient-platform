@@ -35,3 +35,4 @@ spec:
                 name: api-gateway
                 port:
                   number: 8000
+# ingress
