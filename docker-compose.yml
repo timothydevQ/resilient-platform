@@ -189,3 +189,4 @@ services:
 # jaeger
 # loki
 # region-b services
+# restart
