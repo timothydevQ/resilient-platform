@@ -188,3 +188,5 @@ services:
 # grafana
 # jaeger
 # loki
+# region-b services
+# restart
