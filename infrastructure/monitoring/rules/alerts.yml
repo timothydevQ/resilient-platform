@@ -50,3 +50,4 @@ groups:
 # dlq
 # slo risk
 # pod crash
+# memory pressure
