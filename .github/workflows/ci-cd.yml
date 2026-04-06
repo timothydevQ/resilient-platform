@@ -148,3 +148,4 @@ jobs:
 # go setup
 # vet
 # test
+# pkg tests
