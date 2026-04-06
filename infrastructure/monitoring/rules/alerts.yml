@@ -49,3 +49,4 @@ groups:
 # high error
 # dlq
 # slo risk
+# pod crash
