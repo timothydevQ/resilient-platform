@@ -146,3 +146,4 @@ jobs:
 # triggers
 # matrix
 # go setup
+# vet
