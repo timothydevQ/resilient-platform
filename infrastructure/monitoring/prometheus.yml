@@ -49,3 +49,4 @@ scrape_configs:
 # scrape all
 # honor labels
 # alertmanager rm
+# eval interval
