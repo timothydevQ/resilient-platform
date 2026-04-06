@@ -145,3 +145,4 @@ jobs:
           git push
 # triggers
 # matrix
+# go setup
