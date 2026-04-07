@@ -46,3 +46,4 @@ curl http://localhost:8080/v1/stats | jq .total_orders
 
 ## Escalation
 If service does not recover within 15 minutes — escalate to on-call engineer.
+<!-- steps -->
