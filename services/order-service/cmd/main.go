@@ -582,3 +582,4 @@ func main() {
 // metrics
 // routes
 // server
+// slog startup
