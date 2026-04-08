@@ -584,3 +584,4 @@ func main() {
 // server
 // slog startup
 // net join
+// log degrade
