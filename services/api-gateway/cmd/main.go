@@ -458,3 +458,4 @@ func main() {
 // health endpoint
 // routes
 // slog startup
+// log rate
