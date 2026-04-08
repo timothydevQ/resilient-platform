@@ -457,3 +457,4 @@ func main() {
 // response writer
 // health endpoint
 // routes
+// slog startup
