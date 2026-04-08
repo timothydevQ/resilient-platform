@@ -146,3 +146,4 @@ esac
 // inventory slow
 // spike
 // health check
+// recovery verify
