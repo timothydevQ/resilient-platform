@@ -176,3 +176,4 @@ Idempotent Hits: ${data.metrics.idempotent_hits?.values?.count || 0}
 // idempotency
 // create order
 // summary
+// multi region
