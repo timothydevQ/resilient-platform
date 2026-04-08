@@ -442,3 +442,4 @@ var _ = math.Pi
 // send
 // handlers
 // slog startup
+// net join
