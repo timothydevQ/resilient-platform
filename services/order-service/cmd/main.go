@@ -583,3 +583,4 @@ func main() {
 // routes
 // server
 // slog startup
+// net join
