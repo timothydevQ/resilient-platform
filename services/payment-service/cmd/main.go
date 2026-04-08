@@ -470,3 +470,4 @@ func main() {
 // health
 // routes
 // slog startup
+// net join
