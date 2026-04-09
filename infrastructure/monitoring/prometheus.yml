@@ -48,3 +48,4 @@ scrape_configs:
 # global
 # scrape all
 # honor labels
+# alertmanager rm
