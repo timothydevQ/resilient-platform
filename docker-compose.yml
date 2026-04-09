@@ -190,3 +190,4 @@ services:
 # loki
 # region-b services
 # restart
+# healthcheck
