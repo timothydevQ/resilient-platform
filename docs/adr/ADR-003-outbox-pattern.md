@@ -14,3 +14,4 @@ Transactional outbox guarantees at-least-once delivery without distributed trans
 - DLQ requires monitoring and replay capability
 <!-- context -->
 <!-- dlq -->
+<!-- alternatives -->
