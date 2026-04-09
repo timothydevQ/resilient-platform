@@ -17,3 +17,4 @@ An order in `pending_payment` generates revenue once processed. A 503 generates 
 - Requires idempotent downstream calls so retries do not double-charge
 <!-- context -->
 <!-- consequences -->
+<!-- alternatives -->
