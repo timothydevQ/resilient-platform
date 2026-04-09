@@ -471,3 +471,4 @@ func main() {
 // routes
 // slog startup
 // net join
+// log idem
