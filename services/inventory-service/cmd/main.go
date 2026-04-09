@@ -468,3 +468,4 @@ func main() {
 // health routes
 // slog startup
 // net join
+// log low stock
