@@ -50,3 +50,4 @@ scrape_configs:
 # honor labels
 # alertmanager rm
 # eval interval
+# tls skip
