@@ -472,3 +472,4 @@ func main() {
 // slog startup
 // net join
 // log idem
+// attempts
