@@ -239,3 +239,4 @@ func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
 // timeout fn
 // resilient client
 // client do
+// errors sentinel
