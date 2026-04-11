@@ -189,3 +189,4 @@ func TestGetEnv_Missing(t *testing.T) {
 // registry not found
 // health summary
 // getenv
+// proxy construct
