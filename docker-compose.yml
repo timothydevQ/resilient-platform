@@ -194,3 +194,4 @@ services:
 # fixed version
 # grafana env
 # volumes
+# jaeger env
