@@ -196,3 +196,4 @@ services:
 # volumes
 # jaeger env
 # loki config
+# networks explicit
