@@ -18,3 +18,4 @@ An order in `pending_payment` generates revenue once processed. A 503 generates 
 <!-- context -->
 <!-- consequences -->
 <!-- alternatives -->
+<!-- status codes -->
