@@ -43,3 +43,4 @@ File a postmortem within 48 hours. Measure: how long was region-a down? How many
 <!-- steps -->
 <!-- post -->
 <!-- dns -->
+<!-- metrics -->
