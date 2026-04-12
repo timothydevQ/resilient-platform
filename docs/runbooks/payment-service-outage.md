@@ -49,3 +49,4 @@ If service does not recover within 15 minutes — escalate to on-call engineer.
 <!-- steps -->
 <!-- escalation -->
 <!-- grafana -->
+<!-- metrics -->
