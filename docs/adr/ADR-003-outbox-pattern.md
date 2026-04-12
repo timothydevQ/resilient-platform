@@ -15,3 +15,4 @@ Transactional outbox guarantees at-least-once delivery without distributed trans
 <!-- context -->
 <!-- dlq -->
 <!-- alternatives -->
+<!-- consumer idem -->
