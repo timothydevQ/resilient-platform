@@ -43,3 +43,4 @@ vendor/
 # go
 # coverage
 # secrets
+# vendor
