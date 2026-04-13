@@ -37,3 +37,4 @@ spec:
                   number: 8000
 # ingress
 # ssl redirect
+# timeout
