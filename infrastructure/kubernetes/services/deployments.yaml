@@ -379,3 +379,4 @@ spec:
 # inventory deploy
 # notification deploy
 # user deploy
+# liveness probes
