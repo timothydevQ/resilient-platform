@@ -198,3 +198,4 @@ services:
 # loki config
 # networks explicit
 # region-b inventory
+# region-b notification
