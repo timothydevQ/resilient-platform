@@ -197,3 +197,4 @@ services:
 # jaeger env
 # loki config
 # networks explicit
+# region-b inventory
