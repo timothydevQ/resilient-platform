@@ -34,3 +34,4 @@
 - Schema registry for event contracts
 - Self-service SLO dashboard for product teams
 <!-- versions -->
+<!-- v2 details -->
