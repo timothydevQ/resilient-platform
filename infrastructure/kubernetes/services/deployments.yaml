@@ -381,3 +381,4 @@ spec:
 # user deploy
 # liveness probes
 # readiness probes
+# resources
