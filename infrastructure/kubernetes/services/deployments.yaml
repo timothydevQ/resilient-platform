@@ -383,3 +383,4 @@ spec:
 # readiness probes
 # resources
 # rolling
+# term grace
