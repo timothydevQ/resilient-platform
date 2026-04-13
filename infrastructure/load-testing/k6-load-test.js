@@ -180,3 +180,4 @@ Idempotent Hits: ${data.metrics.idempotent_hits?.values?.count || 0}
 // think time
 // error inject
 // notification test
+// user create
