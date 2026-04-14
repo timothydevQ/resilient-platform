@@ -33,3 +33,8 @@
 - gRPC between internal services
 - Schema registry for event contracts
 - Self-service SLO dashboard for product teams
+<!-- versions -->
+<!-- v2 details -->
+<!-- v3 details -->
+<!-- v4 details -->
+<!-- v5 details -->

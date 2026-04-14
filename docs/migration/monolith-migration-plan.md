@@ -35,3 +35,8 @@ monolith
 ├── notification-service (extracted fourth — fully async)
 └── user-service      (extracted last — auth boundary)
 ```
+<!-- phases -->
+<!-- risk -->
+<!-- rollback -->
+<!-- dependency -->
+<!-- testing -->

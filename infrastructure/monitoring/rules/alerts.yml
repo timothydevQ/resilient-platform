@@ -44,3 +44,13 @@ groups:
           severity: critical
         annotations:
           summary: "Order SLO at risk"
+# service down
+# cb open
+# high error
+# dlq
+# slo risk
+# pod crash
+# memory pressure
+# for duration
+# low stock
+# payment failed rate

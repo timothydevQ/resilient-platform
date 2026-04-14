@@ -223,3 +223,35 @@ func TestIdempotencyStore_GetOrSet_Existing(t *testing.T) {
 	if !exists { t.Error("expected exists on second call") }
 	if id != "pay-1" { t.Errorf("expected original pay-1, got %s", id) }
 }
+// charge success
+// charge fields
+// default currency
+// missing order
+// zero amount
+// negative amount
+// gateway down
+// gateway failed status
+// failure reason
+// idem same
+// idem different
+// refund success
+// refund not found
+// refund failed
+// refund gw down
+// get found
+// get not found
+// get by order
+// count by status
+// stats region
+// idem original
+// concurrent charge
+// tst_38:03
+// tst_22:33
+// tst_07:03
+// tst_51:33
+// tst_36:03
+// gateway healthy
+// by order not found
+// refund succeeded
+// charge attempts
+// store count

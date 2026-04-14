@@ -12,3 +12,5 @@ Active-passive wastes 50% capacity. Active-active means region-b is always warm 
 ## Consequences
 - In-memory state not shared between regions
 - Eventual consistency between regions for non-critical data
+<!-- context -->
+<!-- tradeoffs -->

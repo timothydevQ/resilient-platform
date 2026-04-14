@@ -184,3 +184,23 @@ func TestOutboxStatus_Values(t *testing.T) {
 		if s == "" { t.Error("expected non-empty status") }
 	}
 }
+// new event fields
+// marshal payload
+// unique ids
+// outbox add pending
+// outbox mark published
+// outbox mark failed
+// outbox dlq
+// outbox stats
+// bus subscribe publish
+// bus match only
+// bus multi sub
+// bus history
+// dlq count
+// dlq max
+// outbox get dlq
+// outbox concurrent
+// bus no handlers
+// bus history empty
+// event type constants
+// dlq list

@@ -8,3 +8,5 @@ Accept `Idempotency-Key` header on all mutating endpoints. Cache key → result 
 
 ## Rationale
 Client-provided keys (the Stripe model) allow clients to generate stable keys and retry safely without coordination. No extra round-trip vs server-generated keys.
+<!-- context -->
+<!-- consequences -->

@@ -220,3 +220,27 @@ func (r *ResilientClient) Do(fn func() error) error {
 
 func (r *ResilientClient) State() CBState  { return r.cb.State() }
 func (r *ResilientClient) Stats() map[string]any { return r.cb.Stats() }
+// cb state
+// cb config
+// default config
+// cb struct
+// cb execute
+// cb open
+// cb half open
+// cb close
+// cb stats
+// cb state string
+// retry config
+// default retry
+// retry fn
+// backoff delay
+// jitter calc
+// max delay cap
+// timeout fn
+// resilient client
+// client do
+// errors sentinel
+// client state
+// ref_03:08
+// cb open slog
+// retry slog

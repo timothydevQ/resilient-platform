@@ -28,3 +28,8 @@ Idempotency store retained all keys indefinitely without TTL cleanup. Over 6 hou
 
 ## Lessons Learned
 Circuit breakers work. The 11 minutes of graceful degradation saved the customer experience. Hard failures only happened in the 4-minute window before the CB opened — reducing the threshold to 3 cuts this to under 2 minutes.
+<!-- timeline -->
+<!-- actions -->
+<!-- impact -->
+<!-- prevention -->
+<!-- followup -->

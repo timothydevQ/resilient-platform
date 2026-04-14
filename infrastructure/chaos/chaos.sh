@@ -141,3 +141,10 @@ case "${1:-help}" in
     echo "  all                 Run all scenarios in sequence"
     ;;
 esac
+// payment crash
+// region failover
+// inventory slow
+// spike
+// health check
+// recovery verify
+// notification test

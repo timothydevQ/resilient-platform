@@ -181,3 +181,22 @@ services:
     ports:
       - "3100:3100"
     networks: [region-a]
+# init
+# region-a
+# region-b
+# prometheus
+# grafana
+# jaeger
+# loki
+# region-b services
+# restart
+# healthcheck
+# fixed version
+# grafana env
+# volumes
+# jaeger env
+# loki config
+# networks explicit
+# region-b inventory
+# region-b notification
+# final comment

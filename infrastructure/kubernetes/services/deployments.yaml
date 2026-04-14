@@ -369,3 +369,26 @@ spec:
             httpGet:
               path: /healthz/ready
               port: 8084
+# namespace
+# configmap
+# api-gw deploy
+# api-gw hpa
+# order deploy
+# order hpa
+# payment deploy
+# inventory deploy
+# notification deploy
+# user deploy
+# liveness probes
+# readiness probes
+# resources
+# rolling
+# term grace
+# pdb order
+# pdb payment
+# hpa inventory
+# hpa user
+# env from
+# image pull
+# notification hpa
+# secret ref

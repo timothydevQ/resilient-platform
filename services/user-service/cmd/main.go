@@ -212,3 +212,27 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// user struct
+// user store
+// create
+// get
+// update
+// deactivate
+// service
+// handlers
+// slog startup
+// net join
+// feat_29:18
+// feat_13:48
+// feat_58:18
+// feat_42:48
+// feat_27:18
+// fix_12:48
+// fix_57:18
+// fix_41:48
+// fix_26:18
+// ref_25:03
+// ref_09:33
+// create slog
+// deactivate slog
+// final cleanup

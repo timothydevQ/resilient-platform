@@ -273,3 +273,27 @@ func newID() string {
 	rand.Read(b)
 	return fmt.Sprintf("%x", b)
 }
+// event types
+// event struct
+// new event
+// unmarshal
+// outbox status
+// outbox entry
+// outbox struct
+// outbox add
+// outbox published
+// outbox failed
+// outbox dlq
+// outbox pending
+// outbox stats
+// event bus
+// bus subscribe
+// bus publish
+// bus history
+// dlq struct
+// dlq add
+// newid
+// region field
+// ref_40:33
+// bus slog
+// dlq slog

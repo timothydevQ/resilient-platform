@@ -552,3 +552,54 @@ func main() {
 	defer cancel()
 	srv.Shutdown(ctx)
 }
+// scaffold
+// order status
+// order item
+// order struct
+// idempotency store
+// get or set
+// order store
+// store create
+// store get
+// store update
+// store list
+// downstream status
+// inventory client
+// payment client
+// event publisher
+// order service
+// create order
+// idempotency check
+// inventory degrade
+// payment degrade
+// cancel order
+// stats
+// create handler
+// get handler
+// cancel handler
+// user orders handler
+// health
+// metrics
+// routes
+// server
+// slog startup
+// net join
+// log degrade
+// region event
+// feat_23:13
+// feat_06:43
+// feat_51:13
+// feat_35:43
+// feat_20:13
+// fix_05:43
+// fix_50:13
+// fix_34:43
+// fix_19:13
+// fix_03:43
+// ref_17:58
+// ref_02:28
+// slog cancel
+// slog idem
+// downstream health
+// region event
+// final cleanup

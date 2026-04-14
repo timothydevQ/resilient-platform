@@ -8,3 +8,5 @@ Place circuit breakers at two layers: API Gateway (per upstream) and Order Servi
 
 ## Rationale
 Single-layer protection leaves gaps. Dual placement means gateway fails fast when a service is clearly down, order service degrades gracefully when intermittently slow.
+<!-- context -->
+<!-- consequences -->

@@ -275,3 +275,37 @@ func TestStats_ReturnsData(t *testing.T) {
 		t.Errorf("expected region-a, got %v", stats["region"])
 	}
 }
+// create success
+// total calc
+// missing user
+// empty items
+// negative qty
+// negative price
+// region
+// timestamps
+// idem same
+// idem different
+// idem flag
+// inventory down
+// payment down
+// failure reason
+// get found
+// get not found
+// cancel success
+// cancel not found
+// user orders
+// user empty
+// store update
+// idem store
+// stats
+// concurrent create
+// tst_00:38
+// tst_45:08
+// tst_29:38
+// tst_14:08
+// tst_58:38
+// publisher stats
+// no idem key
+// store count
+// store list sort
+// total two items

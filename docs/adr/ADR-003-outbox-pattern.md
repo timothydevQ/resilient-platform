@@ -12,3 +12,7 @@ Transactional outbox guarantees at-least-once delivery without distributed trans
 ## Consequences
 - Events may be delivered more than once — consumers must be idempotent
 - DLQ requires monitoring and replay capability
+<!-- context -->
+<!-- dlq -->
+<!-- alternatives -->
+<!-- consumer idem -->
