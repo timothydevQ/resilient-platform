@@ -379,3 +379,8 @@ spec:
 # inventory deploy
 # notification deploy
 # user deploy
+# liveness probes
+# readiness probes
+# resources
+# rolling
+# term grace

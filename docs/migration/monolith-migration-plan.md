@@ -36,3 +36,4 @@ monolith
 └── user-service      (extracted last — auth boundary)
 ```
 <!-- phases -->
+<!-- risk -->

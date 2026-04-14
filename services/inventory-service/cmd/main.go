@@ -466,3 +466,6 @@ func main() {
 // release handler
 // product handler
 // health routes
+// slog startup
+// net join
+// log low stock

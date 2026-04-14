@@ -298,3 +298,4 @@ func TestStats_ReturnsData(t *testing.T) {
 // store update
 // idem store
 // stats
+// concurrent create

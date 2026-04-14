@@ -582,3 +582,7 @@ func main() {
 // metrics
 // routes
 // server
+// slog startup
+// net join
+// log degrade
+// region event

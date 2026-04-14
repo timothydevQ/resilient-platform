@@ -190,3 +190,7 @@ services:
 # loki
 # region-b services
 # restart
+# healthcheck
+# fixed version
+# grafana env
+# volumes

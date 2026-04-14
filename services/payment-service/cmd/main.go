@@ -469,3 +469,7 @@ func main() {
 // refund handler
 // health
 // routes
+// slog startup
+// net join
+// log idem
+// attempts

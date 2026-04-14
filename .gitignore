@@ -42,3 +42,6 @@ go.work.sum
 vendor/
 # go
 # coverage
+# secrets
+# vendor
+# dist

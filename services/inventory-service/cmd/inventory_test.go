@@ -192,3 +192,5 @@ func TestStats_ReturnsData(t *testing.T) {
 // expire
 // low stock
 // stats
+// concurrent reserve
+// expire count

@@ -529,3 +529,16 @@ SLO thresholds enforced: `p(99)<500ms`, `p(95)<200ms`, `order_errors<1%`.
 <!-- slo -->
 <!-- design -->
 <!-- prereqs -->
+<!-- chaos -->
+<!-- failure -->
+<!-- scaling -->
+<!-- multi-region -->
+<!-- patterns -->
+<!-- api ref -->
+<!-- observability -->
+<!-- badges -->
+<!-- adrs -->
+<!-- roadmap -->
+<!-- contributing -->
+<!-- license -->
+<!-- final -->

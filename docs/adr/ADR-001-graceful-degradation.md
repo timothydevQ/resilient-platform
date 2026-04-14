@@ -16,3 +16,4 @@ An order in `pending_payment` generates revenue once processed. A 503 generates 
 - Requires a background reconciliation job for pending_payment orders
 - Requires idempotent downstream calls so retries do not double-charge
 <!-- context -->
+<!-- consequences -->

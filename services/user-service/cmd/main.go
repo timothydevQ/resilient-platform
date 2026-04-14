@@ -220,3 +220,5 @@ func main() {
 // deactivate
 // service
 // handlers
+// slog startup
+// net join

@@ -441,3 +441,6 @@ var _ = math.Pi
 // process loop
 // send
 // handlers
+// slog startup
+// net join
+// log dlq

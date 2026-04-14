@@ -41,3 +41,4 @@ curl http://localhost:8000/healthz/ready
 ## Post-incident
 File a postmortem within 48 hours. Measure: how long was region-a down? How many orders went through region-b?
 <!-- steps -->
+<!-- post -->
