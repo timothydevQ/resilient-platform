@@ -235,3 +235,4 @@ func main() {
 // ref_09:33
 // create slog
 // deactivate slog
+// final cleanup
