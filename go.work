@@ -1,0 +1,12 @@
+go 1.22
+
+use (
+	./services/api-gateway
+	./services/order-service
+	./services/inventory-service
+	./services/payment-service
+	./services/notification-service
+	./services/user-service
+	./pkg/resilience
+	./pkg/events
+)

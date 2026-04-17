@@ -1,0 +1,47 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - "rules/*.yml"
+
+scrape_configs:
+  - job_name: "api-gateway-a"
+    static_configs:
+      - targets: ["api-gateway-a:8000"]
+    metrics_path: /metrics
+
+  - job_name: "order-service-a"
+    static_configs:
+      - targets: ["order-service-a:8080"]
+    metrics_path: /metrics
+
+  - job_name: "inventory-service-a"
+    static_configs:
+      - targets: ["inventory-service-a:8081"]
+    metrics_path: /metrics
+
+  - job_name: "payment-service-a"
+    static_configs:
+      - targets: ["payment-service-a:8082"]
+    metrics_path: /metrics
+
+  - job_name: "notification-service-a"
+    static_configs:
+      - targets: ["notification-service-a:8083"]
+    metrics_path: /metrics
+
+  - job_name: "user-service-a"
+    static_configs:
+      - targets: ["user-service-a:8084"]
+    metrics_path: /metrics
+
+  - job_name: "api-gateway-b"
+    static_configs:
+      - targets: ["api-gateway-b:9000"]
+    metrics_path: /metrics
+
+  - job_name: "order-service-b"
+    static_configs:
+      - targets: ["order-service-b:9080"]
+    metrics_path: /metrics

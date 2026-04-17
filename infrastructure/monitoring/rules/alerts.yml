@@ -1,0 +1,46 @@
+groups:
+  - name: service_health
+    rules:
+      - alert: ServiceDown
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Service {{ $labels.job }} is down"
+
+      - alert: CircuitBreakerOpen
+        expr: circuit_breaker_state == 1
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Circuit breaker open for {{ $labels.service }}"
+
+  - name: order_alerts
+    rules:
+      - alert: HighDegradedOrders
+        expr: rate(order_service_degraded_total[5m]) > 10
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High rate of degraded orders"
+
+      - alert: DLQGrowing
+        expr: notification_dlq > 100
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Notification DLQ growing"
+
+  - name: slo_alerts
+    rules:
+      - alert: OrderSuccessRateLow
+        expr: rate(order_service_degraded_total[5m]) / rate(order_service_total_orders[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Order SLO at risk"

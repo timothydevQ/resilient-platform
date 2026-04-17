@@ -1,0 +1,183 @@
+networks:
+  region-a:
+    driver: bridge
+  region-b:
+    driver: bridge
+
+volumes:
+  prometheus-data:
+  grafana-data:
+  jaeger-data:
+  loki-data:
+
+services:
+
+  # ── Region A Services ──────────────────────────────────────────────────────
+
+  api-gateway-a:
+    build:
+      context: ./services/api-gateway
+    environment:
+      HTTP_PORT: "8000"
+      REGION: region-a
+      ORDER_SERVICE_URL: http://order-service-a:8080
+      INVENTORY_SERVICE_URL: http://inventory-service-a:8081
+      PAYMENT_SERVICE_URL: http://payment-service-a:8082
+      NOTIFICATION_SERVICE_URL: http://notification-service-a:8083
+      USER_SERVICE_URL: http://user-service-a:8084
+    ports:
+      - "8000:8000"
+    networks: [region-a]
+    restart: unless-stopped
+    depends_on:
+      order-service-a: { condition: service_started }
+
+  order-service-a:
+    build:
+      context: ./services/order-service
+    environment:
+      HTTP_PORT: "8080"
+      REGION: region-a
+    ports:
+      - "8080:8080"
+    networks: [region-a]
+    restart: unless-stopped
+
+  inventory-service-a:
+    build:
+      context: ./services/inventory-service
+    environment:
+      HTTP_PORT: "8081"
+      REGION: region-a
+    ports:
+      - "8081:8081"
+    networks: [region-a]
+    restart: unless-stopped
+
+  payment-service-a:
+    build:
+      context: ./services/payment-service
+    environment:
+      HTTP_PORT: "8082"
+      REGION: region-a
+    ports:
+      - "8082:8082"
+    networks: [region-a]
+    restart: unless-stopped
+
+  notification-service-a:
+    build:
+      context: ./services/notification-service
+    environment:
+      HTTP_PORT: "8083"
+      REGION: region-a
+    ports:
+      - "8083:8083"
+    networks: [region-a]
+    restart: unless-stopped
+
+  user-service-a:
+    build:
+      context: ./services/user-service
+    environment:
+      HTTP_PORT: "8084"
+      REGION: region-a
+    ports:
+      - "8084:8084"
+    networks: [region-a]
+    restart: unless-stopped
+
+  # ── Region B Services (failover) ──────────────────────────────────────────
+
+  api-gateway-b:
+    build:
+      context: ./services/api-gateway
+    environment:
+      HTTP_PORT: "9000"
+      REGION: region-b
+      ORDER_SERVICE_URL: http://order-service-b:9080
+      INVENTORY_SERVICE_URL: http://inventory-service-b:9081
+      PAYMENT_SERVICE_URL: http://payment-service-b:9082
+      NOTIFICATION_SERVICE_URL: http://notification-service-b:9083
+      USER_SERVICE_URL: http://user-service-b:9084
+    ports:
+      - "9000:9000"
+    networks: [region-b]
+    restart: unless-stopped
+
+  order-service-b:
+    build:
+      context: ./services/order-service
+    environment:
+      HTTP_PORT: "9080"
+      REGION: region-b
+    ports:
+      - "9080:9080"
+    networks: [region-b]
+    restart: unless-stopped
+
+  payment-service-b:
+    build:
+      context: ./services/payment-service
+    environment:
+      HTTP_PORT: "9082"
+      REGION: region-b
+    ports:
+      - "9082:9082"
+    networks: [region-b]
+    restart: unless-stopped
+
+  user-service-b:
+    build:
+      context: ./services/user-service
+    environment:
+      HTTP_PORT: "9084"
+      REGION: region-b
+    ports:
+      - "9084:9084"
+    networks: [region-b]
+    restart: unless-stopped
+
+  # ── Observability Stack ────────────────────────────────────────────────────
+
+  prometheus:
+    image: prom/prometheus:v2.51.0
+    volumes:
+      - ./infrastructure/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./infrastructure/monitoring/rules:/etc/prometheus/rules
+      - prometheus-data:/prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--web.enable-lifecycle"
+    ports:
+      - "9090:9090"
+    networks: [region-a]
+
+  grafana:
+    image: grafana/grafana:10.4.0
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_FEATURE_TOGGLES_ENABLE: traceToMetrics
+    volumes:
+      - grafana-data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    networks: [region-a]
+    depends_on: [prometheus]
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.56
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
+    ports:
+      - "16686:16686"
+      - "14268:14268"
+    networks: [region-a]
+
+  loki:
+    image: grafana/loki:2.9.0
+    command: -config.file=/etc/loki/local-config.yaml
+    ports:
+      - "3100:3100"
+    networks: [region-a]
